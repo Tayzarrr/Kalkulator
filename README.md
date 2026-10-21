@@ -91,7 +91,3 @@ Program tetap memakai `eval()` dari versi asal setelah pembatasan karakter. Impl
 Input menggunakan klik tombol. Belum tersedia tombol desimal, tanda kurung, persen, hapus satu karakter, maupun pintasan keyboard. Hasil pembagian tetap dapat berupa desimal.
 
 <div align="center">
-
-**Dibuat untuk belajar HTML, CSS, JavaScript, dan alur kerja Git.**
-
-</div>

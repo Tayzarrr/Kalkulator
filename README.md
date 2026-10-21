@@ -2,7 +2,7 @@
 
 # 🧮 Kalkulator Web
 
-**Hitung sederhana. Tampilan elegan. Kode mudah dipelajari.**
+**Hitungan sederhana dan Tampilan elegan.**
 
 ![HTML5](https://img.shields.io/badge/HTML5-Struktur-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-Tampilan-1572B6?style=for-the-badge&logo=css&logoColor=white)
@@ -89,23 +89,6 @@ Tampilan, warna, susunan tombol, dan mekanisme perhitungan dasar dipertahankan d
 Program tetap memakai `eval()` dari versi asal setelah pembatasan karakter. Implementasi ini untuk latihan kalkulator lokal; jika diperluas untuk menerima ekspresi dari sumber lain, gunakan parser aritmetika khusus. Angka mengikuti presisi floating-point JavaScript sehingga pecahan tertentu dapat memiliki selisih pembulatan kecil.
 
 Input menggunakan klik tombol. Belum tersedia tombol desimal, tanda kurung, persen, hapus satu karakter, maupun pintasan keyboard. Hasil pembagian tetap dapat berupa desimal.
-
-## ☁️ Upload ke GitHub
-
-Lihat **[PANDUAN_GITHUB.md](PANDUAN_GITHUB.md)** untuk langkah lengkap. Buat repository kosong bernama **Kalkulator** sebelum menjalankan perintah berikut dari folder proyek:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit: kalkulator web dengan dokumentasi"
-git branch -M main
-git remote add origin https://github.com/USERNAME/Kalkulator.git
-git push -u origin main
-```
-
-Ganti `USERNAME` dengan username GitHub kamu. Jika `origin` sudah tersedia, gunakan `git remote set-url origin URL_REPOSITORY` sesuai panduan.
-
----
 
 <div align="center">
 

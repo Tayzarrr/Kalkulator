@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!-- Menetapkan dokumen sebagai HTML5. -->
+<html lang="id"> <!-- Membuka dokumen berbahasa Indonesia. -->
+<head> <!-- Membuka bagian metadata halaman. -->
+    <meta charset="UTF-8"> <!-- Menggunakan pengodean karakter UTF-8. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Menyesuaikan ukuran halaman dengan layar perangkat. -->
+    <meta name="description" content="Kalkulator web sederhana dengan latar gradasi animasi."> <!-- Memberikan ringkasan halaman. -->
+    <title>Kalkulator</title> <!-- Menetapkan judul tab browser. -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Memuat tampilan dari file CSS terpisah. -->
+    <script src="js/script.js" defer></script> <!-- Memuat JavaScript setelah HTML selesai diproses. -->
+</head> <!-- Menutup bagian metadata. -->
+<body> <!-- Membuka konten yang tampil di browser. -->
+    <main class="calculator" aria-label="Kalkulator sederhana"> <!-- Membuka panel utama kalkulator. -->
+        <input type="text" class="display" id="display" aria-label="Layar kalkulator" readonly value=""> <!-- Menampilkan ekspresi atau hasil tanpa menerima ketikan langsung. -->
+        <div class="buttons"> <!-- Membuka wadah kisi tombol empat kolom. -->
+            <button type="button" class="btn btn-number">1</button> <!-- Menambahkan angka 1 ke layar. -->
+            <button type="button" class="btn btn-number">2</button> <!-- Menambahkan angka 2 ke layar. -->
+            <button type="button" class="btn btn-number">3</button> <!-- Menambahkan angka 3 ke layar. -->
+            <button type="button" class="btn btn-operator">+</button> <!-- Menambahkan operator penjumlahan. -->
+            <button type="button" class="btn btn-number">4</button> <!-- Menambahkan angka 4 ke layar. -->
+            <button type="button" class="btn btn-number">5</button> <!-- Menambahkan angka 5 ke layar. -->
+            <button type="button" class="btn btn-number">6</button> <!-- Menambahkan angka 6 ke layar. -->
+            <button type="button" class="btn btn-operator">-</button> <!-- Menambahkan operator pengurangan. -->
+            <button type="button" class="btn btn-number">7</button> <!-- Menambahkan angka 7 ke layar. -->
+            <button type="button" class="btn btn-number">8</button> <!-- Menambahkan angka 8 ke layar. -->
+            <button type="button" class="btn btn-number">9</button> <!-- Menambahkan angka 9 ke layar. -->
+            <button type="button" class="btn btn-operator">x</button> <!-- Menambahkan operator perkalian. -->
+            <button type="button" class="btn btn-clear">C</button> <!-- Menghapus seluruh isi layar. -->
+            <button type="button" class="btn btn-number">0</button> <!-- Menambahkan angka 0 ke layar. -->
+            <button type="button" class="btn btn-equal">=</button> <!-- Menghitung ekspresi pada layar. -->
+            <button type="button" class="btn btn-operator">/</button> <!-- Menambahkan operator pembagian. -->
+        </div> <!-- Menutup wadah tombol. -->
+    </main> <!-- Menutup panel kalkulator. -->
+</body> <!-- Menutup konten halaman. -->
+</html> <!-- Menutup dokumen HTML. -->

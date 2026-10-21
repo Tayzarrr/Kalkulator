@@ -1,0 +1,8 @@
+# Mengabaikan konfigurasi editor lokal.
+.vscode/
+.idea/
+# Mengabaikan file sementara sistem operasi.
+.DS_Store
+Thumbs.db
+# Mengabaikan arsip hasil pengemasan.
+*.zip
